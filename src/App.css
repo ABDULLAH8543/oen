@@ -1,0 +1,2791 @@
+body {
+  overflow-x: hidden;
+  background-color: rgb(197, 197, 197);
+}
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+.head {
+  display: flex;
+  background-color: rgb(51, 51, 51);
+  border-bottom: 2px solid white;
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+}
+
+#logo {
+  margin: 0px 20px;
+}
+
+
+ul {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  margin-left: 130px;
+}
+
+ul li {
+  margin: 10px;
+  color: aliceblue;
+  list-style: none;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+ul li:hover {
+  color: gray;
+}
+
+#userlogo {
+  margin: 0px 5px;
+}
+
+#orderbtn {
+  background-color: rgb(255, 167, 3);
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: -10px 0px 0px 0px;
+}
+
+#orderbtn:hover {
+  color: whitesmoke;
+  background-color: black;
+}
+
+#contentbody {
+  background-color: rgb(51, 51, 51);
+  height: 110vh;
+}
+
+#innerheading {
+  color: aliceblue;
+  position: relative;
+  top: 65px;
+  font-size: 50px;
+  margin-left: 40px;
+}
+
+#innerheading span {
+  position: relative;
+  top: 80px;
+  left: -515px;
+}
+
+#userimg {
+  position: relative;
+  height: 50vh;
+  right: -750px;
+}
+
+.stars {
+  background-color: rgb(101, 101, 101);
+  width: fit-content;
+  position: relative;
+  top: -130px;
+  left: 50px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.stars svg {
+  margin: 2px;
+}
+
+.stars span {
+  color: white;
+  margin: 5px 0px 0px 5px;
+}
+
+#based {
+  color: rgb(217, 218, 219);
+  position: relative;
+  top: -175px;
+  left: 210px;
+}
+
+#based span {
+  position: relative;
+  top: 20px;
+  left: -125px;
+}
+
+#label {
+  position: relative;
+  top: -300px;
+  color: white;
+  left: 60px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#labelone {
+  background-color: rgb(216, 216, 216);
+  color: black;
+  padding: 50px 60px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#labelone p {
+  opacity: 0.5;
+}
+
+#labelone:hover p {
+  opacity: 1;
+}
+
+#labelone:hover {
+  background-color: white;
+}
+
+#labeltwo p {
+  opacity: 0.5;
+}
+
+#labeltwo:hover p {
+  opacity: 1;
+}
+
+#labeltwo:hover {
+  background-color: white;
+}
+
+#labeltwo {
+  background-color: white;
+  color: black;
+  padding: 50px 60px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.checkcontent {
+  background-color: white;
+  height: 100vh;
+  position: relative;
+  top: -300px;
+  width: 90vw;
+  left: 60px;
+  padding: 50px;
+}
+
+.options {
+  background-color: orange;
+  height: 80vh;
+  width: 40vw;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+#optionheading {
+  font-size: 25px;
+}
+
+#types {
+  margin-top: 30px;
+  opacity: 0.5;
+}
+
+#firstoptions {
+  width: 30vw;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+
+#optionheadingtwo {
+  margin-top: 25px;
+  opacity: 0.5;
+}
+
+#secoptions {
+  width: 30vw;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+
+#ordertwobtn {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin: 30px 0px;
+  width: 30vw;
+  cursor: pointer;
+}
+
+#ordertwobtn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.bodytwo {
+  display: flex;
+}
+
+#parttwo {
+  border: 1px solid black;
+  margin-left: 50px;
+  padding: 50px;
+}
+
+ol li {
+  margin: 30px;
+  font-size: 20px;
+}
+
+.sectiontwo {
+  background-color: rgb(255, 255, 255);
+  height: 150vh;
+  margin-top: -250px;
+  padding: 100px 50px;
+}
+
+#stone {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 55vw;
+  margin-top: 60px;
+}
+
+#graph {
+  position: relative;
+  right: -900px;
+  top: -270px;
+}
+
+.card {
+  background-color: rgb(186, 185, 185);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+#cardone {
+  background-color: white;
+  height: 50vh;
+}
+
+#userf {
+  height: 50vh;
+}
+
+#cardone h4 {
+  margin: 50px;
+  position: relative;
+  top: -300px;
+  left: 300px;
+}
+
+#cardone p {
+  margin: 50px;
+  position: relative;
+  top: -300px;
+  left: 300px;
+}
+
+#btnthree {
+  border: none;
+  outline: none;
+  background-color: rgb(248, 179, 7);
+  position: relative;
+  top: -300px;
+  left: 350px;
+  padding: 10px;
+  width: 15vw;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+#btnthree:hover {
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+}
+
+#cardone p span {
+  position: relative;
+  top: 80px;
+  right: 100px;
+}
+
+.bodythree {
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+}
+
+.threeinner {
+  margin-top: 100px;
+  display: flex;
+  background-image: url(three.jfif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  justify-content: space-between;
+  padding: 190px;
+}
+
+.threeinner h5 {
+  margin: 230px 0px;
+  width: 60vw;
+  background-color: rgba(255, 255, 255, 0.39);
+  padding: 10px;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.threeinner h5:hover {
+  background-color: white;
+}
+
+.bodyfour {
+  margin-top: 150px;
+}
+
+.bodyfour img {
+  position: relative;
+  top: -90px;
+  right: -900px;
+}
+
+.bodyfour #k {
+  position: relative;
+  top: -130px;
+  right: -950px;
+}
+
+#flex {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#one {
+  width: 40vw;
+  margin-left: 50px;
+  border: 2px solid gray;
+  padding: 50px;
+}
+
+#one img {
+  position: relative;
+  left: 0px;
+  top: 30px;
+}
+
+#two {
+  margin: 0px 20px;
+  padding: 50px;
+  background-image: url(four.jfif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#two h1 {
+  color: gold;
+}
+
+#two p {
+  color: white;
+}
+
+.bodyfive {
+  height: 66vh;
+  display: flex;
+  background-color: rgb(255, 204, 0);
+  width: 100vw;
+  margin: 120px 0px 80px -30px;
+  padding: 0px 50px;
+}
+
+.bodyfive h1 {
+  display: flex;
+  align-items: center;
+}
+
+.bodysix {
+  display: flex;
+  height: 50vh;
+  margin: 50px;
+  margin-bottom: 150px;
+  background-color: rgb(162, 162, 162);
+}
+
+.bodysix h1 {
+  padding: 50px;
+  font-size: 25px;
+}
+
+.bodysix p {
+  position: relative;
+  top: 130px;
+  left: -470px;
+}
+
+#six {
+  background-color: rgb(255, 213, 0);
+  outline: none;
+  border: none;
+  padding: 10px;
+  width: 15vw;
+  position: relative;
+  left: 465px;
+  top: -240px;
+  border-radius: 5px;
+}
+
+#six:hover {
+  background-color: black;
+  color: white;
+}
+
+.bodyseven {
+  background-color: white;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.bodyseven img {
+  position: relative;
+  right: -900px;
+  top: -50px;
+}
+
+.bodyseven #on {
+  position: relative;
+  top: -100px;
+  right: -950px;
+  display: flex;
+  width: 250px;
+}
+
+.bodyseven #tw {
+  font-size: 18px;
+  display: flex;
+  width: 60vw;
+  position: relative;
+  top: -100px;
+}
+
+#imgcoll {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 50px;
+  position: relative;
+  top: -150px;
+}
+
+.dis {
+  background-color: white;
+  padding: 10px 60px;
+  position: relative;
+  top: -200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#btnsix {
+  outline: none;
+  border: none;
+  background-color: rgb(255, 200, 0);
+  width: 17vw;
+  border-radius: 5px;
+
+}
+
+#btnsix:hover {
+  outline: none;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.distwo {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 40px;
+  position: relative;
+  top: -250px;
+  background-color: white;
+  z-index: -1;
+}
+
+.distwo p {
+  width: 20vw;
+}
+
+#btnse {
+  outline: none;
+  height: fit-content;
+  width: fit-content;
+  background-color: white;
+  position: relative;
+  right: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 17vw;
+  cursor: pointer;
+}
+
+#btnseven:hover {
+  background-color: yellow;
+}
+
+.bodyeight {
+  margin-top: -200px;
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+  background-color: rgb(255, 196, 0);
+}
+
+.bodyeight h1 {
+  margin: 100px 0px 0px 30px;
+}
+
+.bodyeight p {
+  margin: 120px 0px 0px -120px;
+}
+
+#btneight {
+  color: white;
+  background-color: black;
+  width: 20vw;
+  height: fit-content;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: 110px 50px 0px 0px;
+}
+
+#btneight:hover {
+  background-color: white;
+  color: black;
+}
+
+.optionstwo {
+  display: flex;
+  width: 57vw;
+  justify-content: space-between;
+  position: relative;
+  top: -240px;
+  cursor: pointer;
+  left: 50px;
+}
+
+.optionstwo {
+  display: flex;
+  justify-content: space-between;
+  width: fit-content;
+}
+
+#optionstone {
+  background-color: rgb(180, 180, 180);
+  padding: 50px 100px;
+}
+
+#optionsttwo {
+  background-color: white;
+  padding: 50px 100px;
+}
+
+.optionsinner {
+  display: flex;
+  flex-direction: column;
+  margin: -250px 50px 0px 50px;
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.optionsinner #opt {
+  display: flex;
+  margin-left: 70px;
+  width: 70vw;
+  justify-content: space-between;
+  padding: 50px 50px 10px 50px;
+  font-weight: bold;
+  border-bottom: 2px solid gray;
+}
+
+#t {
+  display: flex;
+  margin-left: 70px;
+  width: 80vw;
+  justify-content: space-between;
+  padding: 50px 50px 10px 30px;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.452);
+}
+
+#tt {
+  display: inline-block;
+  width: 16vw;
+}
+
+#h {
+  margin-left: 120px;
+}
+
+#w {
+  margin-left: 10px;
+}
+
+#r {
+  margin-right: 0px;
+}
+
+#q {
+  margin-right: 30px;
+}
+
+#t:hover {
+  border-bottom: 2px solid gray;
+}
+
+#ttwo {
+  display: flex;
+  margin-left: 70px;
+  width: 80vw;
+  justify-content: space-between;
+  padding: 50px 50px 10px 30px;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.452);
+}
+
+#tt {
+  display: inline-block;
+  width: 16vw;
+}
+
+#ttwo:hover {
+  border-bottom: 2px solid gray;
+}
+
+#tthree {
+  display: flex;
+  margin-left: 70px;
+  width: 80vw;
+  justify-content: space-between;
+  padding: 50px 50px 10px 30px;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.452);
+}
+
+#tt {
+  display: inline-block;
+  width: 16vw;
+}
+
+#tthree:hover {
+  border-bottom: 2px solid gray;
+}
+
+#bodynine {
+  display: flex;
+  background-color: rgb(255, 187, 0);
+  padding: 50px;
+  height: 40vh;
+  margin: 100px 30px;
+  border-radius: 5px;
+}
+#bodynine h4{
+  font-size: 20px;
+  display: flex;
+  width: 1900px;
+}
+#bodynine p {
+  position: relative;
+  left: -500px;
+  bottom: -60px;
+}
+
+#bodynine img {
+  height: 30vh;
+}
+
+#ten {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: white;
+}
+
+#ten p {
+  position: relative;
+  bottom: -80px;
+  left: -530px;
+}
+
+#ten button {
+  color: white;
+  background-color: black;
+  width: 20vw;
+  height: fit-content;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+#ten button:hover {
+  background-color: rgb(255, 213, 0);
+  color: black;
+}
+
+#bodyten {
+  background-color: white;
+  height: 70vh;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#bodyten #one {
+  padding: 30px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(227, 227, 227);
+  border: none;
+}
+
+#bodyten #one h1 {
+  font-size: 30px;
+}
+
+#bodyten #one p {
+  border-top: 1px solid gray;
+  padding-top: 10px;
+}
+
+.twobody {
+  padding: 400px 0px 0px 0px;
+  background-color: rgb(255, 187, 0);
+}
+
+#labelthree {
+  background-color: rgb(216, 216, 216);
+  color: black;
+  padding: 50px 60px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#labelthree p {
+  opacity: 0.5;
+}
+
+#labelthree:hover p {
+  opacity: 1;
+}
+
+#labelthree:hover {
+  background-color: white;
+}
+
+#labelfour p {
+  opacity: 0.5;
+}
+
+#labelfour:hover p {
+  opacity: 1;
+}
+
+#labelfour:hover {
+  background-color: white;
+}
+
+#labelfour {
+  background-color: white;
+  color: black;
+  padding: 50px 60px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.options {
+  background-color: orange;
+  height: 80vh;
+  width: 40vw;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+#optionheading {
+  font-size: 25px;
+}
+
+#typess {
+  margin-top: 30px;
+  opacity: 0.5;
+}
+
+#firstoptionss {
+  width: 30vw;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+
+#optionheadingtwos {
+  margin-top: 25px;
+  opacity: 0.5;
+}
+
+#secoptionss {
+  width: 30vw;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+
+#ordertwobtn {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin: 30px 0px;
+  width: 30vw;
+  cursor: pointer;
+}
+
+.bodytwelve {
+  background-color: white;
+  height: fit-content;
+  margin-top: -100px;
+  display: flex;
+  padding: 50px;
+}
+
+#btnten {
+  border: none;
+  outline: none;
+  padding: 10px 50px;
+  border-radius: 5px;
+  margin-top: 40px;
+  background-color: rgb(255, 174, 0);
+}
+
+#btnten:hover {
+  background-color: black;
+  color: white;
+}
+
+#twoeone {
+  width: 50vw;
+  height: 15vh;
+  overflow-y: hidden;
+  border-bottom: 1px solid gray;
+  transition: .5s;
+}
+
+#twoetwo {
+  width: 50vw;
+  height: 15vh;
+  overflow-y: hidden;
+  border-bottom: 1px solid gray;
+  transition: .5s;
+}
+
+#twoethree {
+  width: 50vw;
+  height: 15vh;
+  overflow-y: hidden;
+  transition: .5s;
+  border-bottom: 1px solid gray;
+}
+
+#twoefour {
+  transition: .5s;
+  width: 50vw;
+  height: 15vh;
+  overflow-y: hidden;
+  border-bottom: 1px solid gray;
+}
+
+#spanone {
+  color: rgb(255, 196, 0);
+  font-size: 40px;
+  cursor: pointer;
+  margin-left: 150px;
+}
+
+#spanone:hover {
+  color: black;
+}
+
+#spantwo {
+  color: rgb(255, 196, 0);
+  font-size: 40px;
+  cursor: pointer;
+  margin-left: 150px;
+}
+
+#spantwo:hover {
+  color: black;
+}
+
+#spanthree {
+  color: rgb(255, 196, 0);
+  font-size: 40px;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+#spanthree:hover {
+  color: black;
+}
+
+#spanfour {
+  color: rgb(255, 196, 0);
+  font-size: 40px;
+  cursor: pointer;
+  margin-left: -8px;
+}
+
+#spanfour:hover {
+  color: black;
+}
+
+.bodythirteen {
+  display: flex;
+  padding: 50px;
+  margin: 50px;
+  height: 50vh;
+}
+
+.bodythirteen h1 {
+  position: relative;
+  left: 50px;
+  font-size: 30px;
+}
+
+.bodythirteen p {
+  position: relative;
+  left: -240px;
+  top: 100px;
+}
+
+#btneleven {
+  position: relative;
+  height: fit-content;
+  width: 20vw;
+  padding: 10px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  outline: none;
+  border: none;
+  bottom: -170px;
+  left: -630px;
+  border: 5px;
+}
+
+#btneleven:hover {
+  background-color: white;
+  color: black;
+}
+
+.bodyfourteen {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+#on,
+#ontwo {
+  margin: 0px 50px;
+}
+
+#ul {
+  display: grid;
+  margin: 0px -30px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#ontwo h1{
+  color: red;
+}
+#li {
+  color: black;
+  margin: 20px 10px;
+  list-style: none;
+}
+
+.bodyfifteen {
+  background-color: black;
+  height: 90vh;
+  border-bottom: 1px solid white;
+}
+
+#fiveheading {
+  color: white;
+  font-size: 40px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+.bodyfifteen ul {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  top: 100px;
+  left: -560px;
+}
+
+.bodyfifteen ul li {
+  border-bottom: 1px solid white;
+}
+
+.bodyfifteen ul li:hover {
+  border-bottom: 1px solid rgb(255, 183, 0);
+  color: rgb(255, 183, 0);
+}
+
+.bodyfifteen h5 {
+  font-size: 40px;
+  position: relative;
+  top: -260px;
+  right: -500px;
+  color: white;
+}
+
+#ultwo {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  top: -250px;
+  left: -150px;
+}
+
+.bodysixteen {
+  height: 60vh;
+  background-color: black;
+  padding: 50px;
+}
+
+.bodysixteen h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.bodysixteen p {
+  color: white;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.bodysixteen img {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1280px){
+  #cardone h4 {
+      margin: 50px;
+      position: relative;
+      top: -300px;
+      left: 400px;
+  }
+  
+  #cardone p {
+      margin: 50px;
+      position: relative;
+      top: -300px;
+      left: 400px;
+  }
+  
+  #btnthree {
+      border: none;
+      outline: none;
+      background-color: rgb(248, 179, 7);
+      position: relative;
+      top: -300px;
+      left: 450px;
+      padding: 10px;
+      width: 15vw;
+      font-size: 15px;
+      border-radius: 5px;
+  }
+  .bodysix p{
+      top: 130px;
+      left: -410px;
+  }
+  #six {
+      background-color: rgb(255, 213, 0);
+      outline: none;
+      border: none;
+      padding: 10px;
+      width: 15vw;
+      position: relative;
+      left: 590px;
+      top: -240px;
+      border-radius: 5px;
+  }
+  .bodythirteen p {
+      position: relative;
+      left: -220px;
+      top: 100px;
+  }
+  
+  #btneleven {
+      position: relative;
+      height: fit-content;
+      width: 20vw;
+      padding: 10px;
+      color: white;
+      background-color: rgb(0, 0, 0);
+      outline: none;
+      border: none;
+      bottom: -170px;
+      left: -550px;
+      border: 5px;
+  }
+}
+@media screen and (max-width: 1114px) {
+  
+  ul {
+      display: flex;
+      margin: 20px;
+      align-items: center;
+      margin-left: 10px;
+  }
+  #userimg {
+      position: relative;
+      height: 50vh;
+      top: -30px;
+      right:-350px;
+  }
+  #graph {
+      position: relative;
+      right: -700px;
+      top: -270px;
+  }
+  #cardone h4 {
+      margin: 50px;
+      position: relative;
+      top: -300px;
+      left: 300px;
+  }
+  
+  #cardone p {
+      margin: 50px;
+      position: relative;
+      top: -300px;
+      left: 300px;
+  }
+  
+  #btnthree {
+      border: none;
+      outline: none;
+      background-color: rgb(248, 179, 7);
+      position: relative;
+      top: -300px;
+      left: 350px;
+      padding: 10px;
+      width: 15vw;
+      font-size: 15px;
+      border-radius: 5px;
+  }
+  .bodyfour img {
+      position: relative;
+      top: -90px;
+      right: -780px;
+  }
+  
+  .bodyfour #k {
+      position: relative;
+      top: -130px;
+      right: -830px;
+  }
+  #one img {
+      position: relative;
+      left: -25px;
+      top: 30px;
+  }
+  .bodysix p {
+      position: relative;
+      top: 160px;
+      left: -255px;
+  }
+  
+  #six {
+      background-color: rgb(255, 213, 0);
+      outline: none;
+      border: none;
+      padding: 10px;
+      width: 15vw;
+      position: relative;
+      left: 600px;
+      top: -240px;
+      border-radius: 5px;
+  }
+  .bodyseven img {
+      position: relative;
+      right: -800px;
+      top: -50px;
+  }
+  
+  .bodyseven #on {
+      position: relative;
+      top: -100px;
+      right: -800px;
+      display: flex;
+      width: 250px;
+  }
+  #imgcoll {
+      display: flex;
+      background-color: white;
+      justify-content: space-between;
+      width: 100vw;
+      padding: 40px;
+      position: relative;
+      top: -150px;
+  }
+  #imgcoll img{
+      height: 250px;
+  }
+  #bodynine p {
+      position: relative;
+      left: -240px;
+      bottom: -120px;
+  }
+  #ten p {
+      position: relative;
+      bottom: -100px;
+      left: -460px;
+  }
+  
+#twoethree {
+  width: 60vw;
+  height: 15vh;
+  overflow-y: hidden;
+  transition: .5s;
+  border-bottom: 1px solid gray;
+}
+
+#twoefour {
+  transition: .5s;
+  width: 60vw;
+  height: 15vh;
+  overflow-y: hidden;
+  border-bottom: 1px solid gray;
+}
+.bodythirteen p {
+  position: relative;
+  left: -190px;
+  top: 120px;
+}
+
+#btneleven {
+  position: relative;
+  height: fit-content;
+  width: 20vw;
+  padding: 10px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  outline: none;
+  border: none;
+  bottom: -200px;
+  left: -500px;
+  border: 5px;
+}
+.bodyfifteen ul {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  top: 100px;
+  left: -420px;
+}
+#ultwo {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  top: -250px;
+  left: 100px;
+}
+.bodyfifteen h5{
+  position: relative;
+  left: 600px;
+}
+}
+@media screen and (max-width: 884px) {
+  #contentbody {
+      background-color: rgb(51, 51, 51);
+      height: 90vh;
+  }
+  ul {
+      display: flex;
+      margin: 5px;
+      align-items: center;
+  }
+  
+  ul li {
+      margin: 10px;
+      color: aliceblue;
+      list-style: none;
+      cursor: pointer;
+      font-size: 10px;
+  }
+  #orderbtn {
+      background-color: rgb(255, 167, 3);
+      border: none;
+      outline: none;
+      font-size: 10px;
+      border-radius: 5px;
+      padding: 5px 20px;
+      margin: -10px 0px 0px 0px;
+  }
+  .stars{
+      top: -350px;
+  }
+  #userimg{
+      top: 100px;
+  }
+  
+#innerheading {
+  color: aliceblue;
+  position: relative;
+  top: 65px;
+  font-size: 30px;
+  margin-left: 40px;
+}
+
+#innerheading span {
+  position: relative;
+  top: 30px;
+  left: -310px;
+}
+
+#based {
+  color: rgb(217, 218, 219);
+  position: relative;
+  top: -395px;
+  left: 210px;
+}
+
+#based span {
+  position: relative;
+  top: 20px;
+  left: -125px;
+}
+.body{
+  height: 70vh;
+}
+.checkcontent {
+  background-color: white;
+  height: 55vh;
+  position: relative;
+  top: -300px;
+  width: 90vw;
+  left: 60px;
+  padding: 50px;
+}
+
+.options {
+  background-color: orange;
+  height: 44vh;
+  width: 40vw;
+  padding: 50px;
+  border-radius: 5px;
+}
+#parttwo {
+  border: 1px solid black;
+  margin-left: 50px;
+  padding: 15px;
+}
+#stone {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 80vw;
+  margin-top: 60px;
+}
+
+#graph {
+  position: relative;
+  right: -500px;
+  top: 60px;
+}
+
+.card {
+  background-color: rgb(186, 185, 185);
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+#cardone {
+  background-color: white;
+  height: 30vh;
+}
+
+#userf {
+  height: 30vh;
+}
+
+#cardone h4 {
+  margin: 25px 0px 25px 40px;
+  font-size: 15px;
+  position: relative;
+  top: -300px;
+  left: 300px;
+}
+
+#cardone p {
+  margin: 50px;
+  position: relative;
+  top: -300px;
+  left: 300px;
+}
+#cardone p span{
+  margin: -100px;
+}
+
+#btnthree {
+  border: none;
+  outline: none;
+  background-color: rgb(248, 179, 7);
+  position: relative;
+  top: -300px;
+  left: 350px;
+  padding: 10px;
+  width: 15vw;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.threeinner {
+  margin-top: 90px;
+  display: flex;
+  background-image: url(three.jfif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: fit-content;
+  justify-content: space-between;
+  padding: 50px 10px;
+}
+
+.threeinner h5 {
+  margin: 230px 0px;
+  width: 60vw;
+  background-color: rgba(255, 255, 255, 0.39);
+  padding: 10px;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.bodyfour img {
+  position: relative;
+  top: -90px;
+  right: -600px;
+}
+.bodyfour h1{
+  font-size: 30px;
+}
+
+.bodyfour #k {
+  position: relative;
+  top: -140px;
+  right: -660px;
+  display: flex;
+  width: 150px;
+}
+#one img {
+  position: relative;
+  left: -20px;
+  top: 30px;
+  width: 300px;
+}
+.bodyfive {
+  height: 50vh;
+  display: flex;
+  background-color: rgb(255, 204, 0);
+  width: 100vw;
+  margin: 120px 0px 80px -30px;
+  padding: 10px 50px;
+}
+.bodysix {
+  display: flex;
+  height: 30vh;
+  margin: 50px;
+  margin-bottom: 50px;
+  background-color: rgb(162, 162, 162);
+}
+.bodysix img{
+  height: 30vh;
+}
+
+.bodysix h1 {
+  padding: 30px;
+  display: flex;
+  width: 1200px;
+  font-size: 20px;
+}
+
+.bodysix p {
+  position: relative;
+  top: 130px;
+  display: flex;
+  width: 1000px;
+  left: -210px;
+}
+
+#six {
+  background-color: rgb(255, 213, 0);
+  outline: none;
+  border: none;
+  padding: 10px;
+  width: 15vw;
+  position: relative;
+  left: 470px;
+  top: -130px;
+  border-radius: 5px;
+}
+
+.bodyseven {
+  background-color: white;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.bodyseven img {
+  position: relative;
+  right: -550px;
+  top: -30px;
+}
+.bodyseven h1{
+  font-size: 20px;
+}
+.bodyseven #on {
+  position: relative;
+  top: -80px;
+  right: -550px;
+  display: flex;
+  width: 250px;
+}
+
+.bodyseven #tw {
+  font-size: 15px;
+  display: flex;
+  width: 60vw;
+  position: relative;
+  top: -100px;
+} 
+#imgcoll img{
+  height: 180px;
+}
+.bodyeight {
+  margin-top: -200px;
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+  background-color: rgb(255, 196, 0);
+}
+.bodyeight p {
+  margin: 110px 0px 0px -50px;
+}
+#bodynine h4{
+  font-size: 20px;
+  display: flex;
+  width: 1900px;
+}
+#bodynine p {
+  position: relative;
+  left: -330px;
+  bottom: -60px;
+}
+
+#bodynine img {
+  height: 10vh;
+}
+#bodynine{
+  height: 20vh;
+  overflow-y: hidden;
+}
+#ten p {
+  position: relative;
+  bottom: -90px;
+  left: -330px;
+}
+
+#bodyten {
+  background-color: white;
+  height: 60vh;
+  padding: 50px 50px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#bodyten #one {
+  padding: 20px;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(227, 227, 227);
+  border: none;
+}
+#spanthree {
+  color: rgb(255, 196, 0);
+  font-size: 40px;
+  cursor: pointer;
+  margin-left: 145px;
+}
+
+#spanfour {
+  color: rgb(255, 196, 0);
+  font-size: 40px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.bodythirteen {
+  display: flex;
+  padding: 50px;
+  margin: 50px;
+  height: 30vh;
+}
+
+.bodythirteen h1 {
+  position: relative;
+  left: 60px;
+  font-size: 20px;
+}
+
+.bodythirteen p {
+  position: relative;
+  left: -40px;
+  top: 100px;
+}
+
+#btneleven {
+  position: relative;
+  height: fit-content;
+  width: 20vw;
+  padding: 10px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  outline: none;
+  border: none;
+  bottom: -200px;
+  left: -300px;
+  border: 5px;
+}
+
+.bodyfourteen {
+  background-color: white;
+  height: 50vh;
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+#on,
+#ontwo {
+  margin: 0px 50px;
+}
+
+#ul {
+  display: grid;
+  margin: 0px -30px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#li {
+  color: black;
+  margin: 20px 10px;
+  list-style: none;
+}
+
+.bodyfifteen {
+  background-color: black;
+  height: 50vh;
+  border-bottom: 1px solid white;
+}
+
+#fiveheading {
+  color: white;
+  font-size: 40px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+.bodyfifteen ul {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  top: 120px;
+  left: -320px;
+}
+.bodyfifteen h5 {
+  font-size: 40px;
+  position: relative;
+  top: -160px;
+  right: -500px;
+  color: white;
+}
+
+#ultwo {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  top: -150px;
+  left: 200px;
+}
+}
+@media screen and (max-width: 834px) {
+  ul {
+      display: flex;
+      margin: 20px;
+      align-items: center;
+      margin-left: 10px;
+  }
+  
+  ul li {
+      margin: 6px;
+      color: aliceblue;
+      list-style: none;
+      cursor: pointer;
+      font-size: 10px;
+  } 
+  
+#h {
+  margin-left: 50px;
+  font-size: 10px;
+}
+
+#w {
+  margin-left: 10px;
+  font-size: 10px;
+}
+
+#r {
+  margin-right: 0px;
+  font-size: 10px;
+}
+
+#q {
+  margin-right: 30px;
+  font-size: 10px;
+}
+}
+@media screen and (max-width: 800px) {
+  ul {
+      display: flex;
+      margin: 10px 0px;
+      align-items: center;
+  }
+  
+  ul li {
+      margin: 6px;
+      color: aliceblue;
+      list-style: none;
+      cursor: pointer;
+      font-size: 10px;
+  }
+  #cardone {
+      background-color: white;
+      height: 30vh;
+  }
+  
+  #userf {
+      height: 30vh;
+  }
+  
+  #cardone h4 {
+      margin: 50px;
+      position: relative;
+      top: -300px;
+      left: 340px;
+      font-size: 10px;
+  }
+  
+  #cardone p {
+      margin: 50px;
+      display: flex;
+      width: 100px;
+      position: relative;
+      top: -300px;
+      left: 350px;
+  }
+  #btnthree{
+      left: 400px;
+  }
+  .bodyfour h1{
+      font-size: 20px;
+  }
+  
+  .bodyfour img {
+      position: relative;
+      top: -90px;
+      right: -450px;
+  }
+  
+  .bodyfour #k {
+      position: relative;
+      top: -130px;
+      right: -500px;
+  }
+  .bodysix{
+      height: 20vh;
+  }
+  .bodysix img{
+      height: 20vh;
+  }
+
+.bodysix h1 {
+  padding: 50px;
+  font-size: 15px;
+}
+#six {
+  background-color: rgb(255, 213, 0);
+  outline: none;
+  border: none;
+  padding: 10px;
+  width: 15vw;
+  position: relative;
+  left: 550px;
+  top: -140px;
+  border-radius: 5px;
+}
+.bodyseven img {
+  position: relative;
+  right: -500px;
+  top: -30px;
+}
+.bodyseven #on {
+  position: relative;
+  top: -80px;
+  right: -500px;
+  display: flex;
+  width: 250px;
+}
+.bodyeight p {
+  margin: 150px 0px 0px -50px;
+}
+#bodynine p {
+  position: relative;
+  left: -250px;
+  bottom: -90px;
+  overflow-y: hidden;
+}
+#bodyten {
+  background-color: white;
+  height: fit-content;
+  padding: 50px 50px 0px 0px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+#bodyten #one {
+  padding: 50px;
+  margin: 50px;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(227, 227, 227);
+  border: none;
+}
+#btneleven {
+  position: relative;
+  height: fit-content;
+  width: 30vw;
+  padding: 10px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  outline: none;
+  border: none;
+  bottom: -220px;
+  left: -200px;
+  border-radius: 5px;
+}
+.bodyfifteen ul {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  top: 120px;
+  left: -290px;
+}
+.bodyfifteen h5 {
+  font-size: 40px;
+  position: relative;
+  top: -160px;
+  left: 550px;
+  color: rgb(255, 255, 255);
+}
+}
+@media screen and (max-width: 768px) {
+  ul {
+      display: flex;
+      margin: 10px 0px;
+      align-items: center;
+  }
+  
+  ul li {
+      margin: 4px;
+      color: aliceblue;
+      list-style: none;
+      cursor: pointer;
+      font-size: 10px;
+  }
+  #cardone h4 {
+      margin: 50px;
+      position: relative;
+      top: -300px;
+      left: 270px;
+      font-size: 10px;
+  }
+  
+  #cardone p {
+      margin: 50px;
+      display: flex;
+      width: 100px;
+      position: relative;
+      top: -300px;
+      left: 290px;
+  }
+  #btnthree{
+      left: 330px;
+  }
+  #one img {
+      position: relative;
+      left: -20px;
+      top: 30px;
+      width: 250px;
+  }
+  .bodysix p {
+      position: relative;
+      top: 130px;
+      display: flex;
+      width: 1000px;
+      left: -210px;
+  }
+  .bodysix{
+      overflow-y: hidden;
+  }
+  #imgcoll {
+      display: flex;
+      background-color: white;
+      grid-template-columns: repeat(2,1fr);
+      width: 100vw;
+      padding: 50px;
+      position: relative;
+      justify-content: space-between;
+      top: -150px;
+  }
+  #imgcoll img{
+      margin: 100px 0px 50px 0px;
+      height: 150px;
+  }
+  .optionsinner {
+      display: flex;
+      flex-direction: column;
+      margin: -250px 50px 0px 50px;
+      background-color: white;
+      padding-bottom: 50px;
+  }
+  #ultwo {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      position: relative;
+      top: -80px;
+      left: 200px;
+  }
+  .bodyfifteen h5 {
+      font-size: 40px;
+      position: relative;
+      top: -130px;
+      left: 550px;
+      color: rgb(255, 255, 255);
+  }
+  #btneleven {
+      position: relative;
+      height: fit-content;
+      width: 30vw;
+      padding: 10px;
+      color: white;
+      background-color: rgb(0, 0, 0);
+      outline: none;
+      border: none;
+      bottom: -200px;
+      left: -250px;
+      border-radius: 5px;
+  }
+  .checkcontent {
+      background-color: white;
+      height: 68vh;
+      position: relative;
+      top: -300px;
+      width: 90vw;
+      left: 60px;
+      padding: 50px;
+  }
+  .options {
+      background-color: orange;
+      height: 60vh;
+      width: 40vw;
+      padding: 50px;
+      border-radius: 5px;
+  }
+}
+@media screen and (max-width:428px){
+  body{
+    overflow-x: hidden;
+  }
+  #checkbox{
+      display: block;
+  }
+  ul {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      align-items: center;
+      position: relative;
+      top: 57px;
+      height: 90vh;
+      right: -90%;
+      transition: .5s;
+  }
+  
+  ul li {
+      margin: 1px;
+      color: aliceblue;
+      list-style: none;
+      cursor: pointer;
+      font-size: 17px;
+      padding: 20px 150px;
+      color: black;
+  }
+  .head{
+      height: 10vh;
+  }
+  .head img{
+      height: 4vh;
+      position: relative;
+      top: 20px;
+  }
+  #innerheading {
+      color: aliceblue;
+      position: relative;
+      top: 25px;
+      font-size: 25px;
+      margin-left: 20px;
+  }
+  #innerheading span {
+      position: relative;
+      top: 25px;
+      left: -5px;
+      display: flex;
+  }
+  .stars {
+      background-color: rgb(101, 101, 101);
+      width: fit-content;
+      position: relative;
+      top: -270px;
+      left: 30px;
+      padding: 10px;
+      border-radius: 5px;
+  }
+  #based {
+      color: rgb(217, 218, 219);
+      position: relative;
+      top: -315px;
+      left: 160px;
+  }
+  #userimg{
+      margin-left: 50px;
+  }
+
+  #label{
+      top: -400px;
+      left: 50px;
+      width: 70vw;
+      display: flex;
+      justify-content: space-between;
+  }
+#labelone {
+  background-color: rgb(216, 216, 216);
+  color: black;
+  padding: 10px 21px;
+  font-size: 10px;
+  cursor: pointer;
+}
+#labeltwo {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+
+.checkcontent {
+  background-color: rgb(255, 255, 255);
+  height: 115vh;
+  position: relative;
+  top: -400px;
+  width: 70vw;
+  left: 50px;
+  padding: 20px;
+}
+.bodytwo {
+  display: flex;
+  flex-direction: column;
+}
+
+.options {
+  background-color: orange;
+  height: fit-content;
+  width: 60vw;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#optionheading {
+  font-size: 15px;
+}
+
+#firstoptions {
+  width: 50vw;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+
+#secoptions {
+  width: 50vw;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+
+#ordertwobtn {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin: 30px 0px;
+  width: 50vw;
+  cursor: pointer;
+}
+
+#parttwo {
+  border: 1px solid black;
+  margin-left: 0px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+ol li {
+  margin: 15px;
+  font-size: 10px;
+}
+#stone {
+  display: flex;
+  width: 75vw;
+  flex-direction: column;
+  margin: 50px 10px 40px 10px;
+  height: 50vh;
+}
+#cardone {
+  display: none;
+}
+.card{
+  height: 0vh;
+}
+.threeinner h5 {
+  margin: 20px 0px;
+  width: 60vw;
+  background-color: rgba(255, 255, 255, 0.39);
+  padding: 10px;
+  height: fit-content;
+  cursor: pointer;
+}
+.threeinner {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(three.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  height: 60vh;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+#flex {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: -10px;
+}
+
+#one {
+  width: 80vw;
+  margin-left: 20px;
+  border: 2px solid gray;
+  padding: 50px;
+  margin-bottom: 30px;
+}
+
+#one img {
+  position: relative;
+  left: -20px;
+  top: 30px;
+}
+
+#two {
+  margin: 0px 20px;
+  padding: 50px;
+  background-image: url(four.jfif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#two h1 {
+  color: gold;
+}
+
+#two p {
+  color: white;
+}
+
+.bodysix {
+  display: flex;
+  height: 20vh;
+  margin: 20px;
+  background-color: rgb(162, 162, 162);
+}
+
+.bodysix h1 {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.bodysix p {
+display: none;
+}
+
+#six {
+  background-color: rgb(255, 213, 0);
+  outline: none;
+  border: none;
+  width: 15vw;
+  position: relative;
+  left: 220px;
+  top: -80px;
+  border-radius: 5px;
+  font-size: 5px;
+}
+#imgcoll {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 20px;
+  position: relative;
+  top: -150px;
+  overflow-x: scroll;
+}
+#imgcoll img{
+  height: 40vh;
+  margin: 20px;
+}
+.dis {
+  display: none;
+}
+.distwo{
+  display: none;
+}
+.bodyeight p {
+  margin: 190px 0px 0px -130px;
+}
+.optionstwo {
+  display: flex;
+  width: 89vw;
+  justify-content: space-between;
+  position: relative;
+  top: -200px;
+  cursor: pointer;
+  left: 20px;
+}
+#optionstone {
+  background-color: rgb(180, 180, 180);
+  padding: 10px 10px;
+  margin-top: 140px;
+  font-size: 15px;
+}
+
+#optionsttwo {
+  font-size: 15px;
+  background-color: white;
+  padding: 10px 10px;
+  margin-top: 140px;
+}
+
+#labelthree {
+  background-color: rgb(216, 216, 216);
+  color: black;
+  padding: 10px 20px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+#labelfour {
+  background-color: white;
+  color: black;
+  padding: 10px 21px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+#optionstone {
+  background-color: rgb(180, 180, 180);
+  padding: 10px 10px;
+  font-size: 10px;
+  width: 50vw;
+}
+
+#optionsttwo {
+  background-color: white;
+  padding: 10px 10px;
+  font-size: 10px;
+  width: 50vw;
+}
+
+.optionsinner {
+  display: flex;
+  flex-direction: column;
+  margin: -200px 20px 0px 20px;
+  background-color: white;
+  padding-bottom: 50px;
+  height: 70vh;
+}
+
+.optionsinner #opt {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+  font-size: 10px;
+  height: 50vh;
+  justify-content: space-between;
+  border: none;
+}
+
+#t {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 80vw;
+  position: relative;
+  top: -410px;
+  right: -100px;
+  justify-content: space-between;
+  padding: 50px 50px 10px 30px;
+  border-bottom: none;
+}
+#t:hover{
+  border-bottom: none;
+}
+#t p{
+  margin: 23px 0px;
+}
+#h {
+  margin-left: 0px;
+  margin-top: 50px;
+}
+
+#w {
+  margin-left: 0px;
+  margin-top: 50px;
+}
+
+#r {
+  margin-right: 0px;
+  margin-top: 50px;
+}
+
+#q {
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+#ttwo {
+  display: flex;
+  margin-left: 70px;
+  width: 80vw;
+  justify-content: space-between;
+  padding: 50px 50px 10px 30px;
+  display: none;
+}
+
+#tthree {
+  display: flex;
+  margin-left: 70px;
+  width: 80vw;
+  display: none;
+  justify-content: space-between;
+  padding: 50px 50px 10px 30px;
+}
+#tt {
+  display: inline-block;
+  width: 50vw;
+}
+#btneight {
+  color: white;
+  background-color: black;
+  width: 100vw;
+  height: fit-content;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 10px;
+  position: relative;
+  top: 710px;
+  left: -50px;
+}
+
+#bodynine {
+  display: flex;
+  background-color: rgb(255, 187, 0);
+  padding: 20px;
+  height: 40vh;
+  margin: 100px 30px;
+  border-radius: 5px;
+}
+#bodynine h4{
+  font-size: 10px;
+  display: flex;
+  position: relative;
+}
+#bodynine p {
+ display: none;
+}
+
+#bodynine img {
+  height: 30vh;
+}
+#ten {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+}
+
+#ten p {
+  display: none;
+}
+
+#ten button {
+  color: white;
+  background-color: black;
+  width: 50vw;
+  height: fit-content;
+  padding: 10px;
+  position: relative;
+  top: 50px;
+  border: none;
+  outline: none;
+  font-size: 10px;
+  border-radius: 5px;
+}
+
+#bodyten {
+  background-color: white;
+  height: fit-content;
+  padding: 50px 50px 0px 0px;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+}
+
+#bodyten #one {
+  padding: 50px;
+  margin: 50px 35px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(227, 227, 227);
+  border: none;
+}
+#firstoptionss{
+  width: 50vw;
+}
+#secoptionss{
+  width: 50vw;
+}
+.bodytwelve {
+  background-color: white;
+  height: fit-content;
+  margin-top: -100px;
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+}
+
+#twoeone {
+  width: 60vw;
+  height: 5vh;
+  overflow-y: hidden;
+  border-bottom: 1px solid gray;
+  transition: .5s;
+  margin: 30px 0px;
+}
+
+#twoetwo {
+  width: 60vw;
+  height: 5vh;
+  overflow-y: hidden;
+  border-bottom: 1px solid gray;
+  transition: .5s;
+}
+
+#twoethree {
+  width: 60vw;
+  height: 7vh;
+  overflow-y: hidden;
+  transition: .5s;
+  border-bottom: 1px solid gray;
+}
+
+#twoefour {
+  transition: .5s;
+  width: 60vw;
+  height: 5vh;
+  overflow-y: hidden;
+  border-bottom: 1px solid gray;
+}
+
+#spanone {
+  color: rgb(255, 196, 0);
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  top: -25px;
+  left: 20px;
+}
+
+#spantwo {
+  color: rgb(255, 196, 0);
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  top: -25px;
+  left: 20px;
+}
+
+#spanthree {
+  color: rgb(255, 196, 0);
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  top: -25px;
+  left: 20px;
+  cursor: pointer;
+}
+
+#spanfour {
+  color: rgb(255, 196, 0);
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  top: -25px;
+  left: 40px;
+  cursor: pointer;
+}
+
+.bodythirteen {
+  display: flex;
+  padding: 10px;
+  margin: 50px;
+  height: 20vh;
+}
+
+.bodythirteen img{
+  height: 10vh;
+}
+.bodythirteen h1 {
+  position: relative;
+  left: 50px;
+  font-size: 20px;
+}
+
+.bodythirteen p {
+  display: none;
+}
+
+#btneleven {
+  position: relative;
+  height: fit-content;
+  width: 70vw;
+  padding: 10px;
+  color: white;
+  font-size: 10px;
+  background-color: rgb(0, 0, 0);
+  outline: none;
+  border: none;
+  bottom: -90px;
+  left: -60px;
+  border: 5px;
+}
+
+.bodyfourteen {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  padding: 30px 10px;
+  justify-content: space-between;
+}
+
+#on,
+#ontwo {
+  margin: 0px 50px;
+}
+
+#ul {
+  display: grid;
+  margin: 0px 60px;
+  grid-template-columns: repeat(1, 1fr);
+  height: 80vh;
+  overflow-y: hidden;
+  position: relative;
+  left: -800px;
+}
+
+#li {
+  color: black;
+  margin: 0px 0px;
+  list-style: none;
+}
+
+.bodyfifteen {
+  background-color: black;
+  height: 90vh;
+  margin-top: 60px;
+  border-bottom: 1px solid white;
+}
+
+#fiveheading {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.bodyfifteen ul {
+  display: flex;
+  padding: 0px;
+  flex-direction: column;
+  position: relative;
+  top: 50px;
+  height: 50vh;
+  width: 30vw;
+  left: 20px;
+  background-color: black;
+}
+.bodyfifteen ul li {
+  font-size: 10px;
+  border: none;
+  color: white;
+}
+
+.bodyfifteen ul li:hover {
+  border-bottom: none;
+  color: rgb(255, 183, 0);
+}
+
+.bodyfifteen h5 {
+  font-size: 20px;
+  position: relative;
+  top: -330px;
+  color: white;
+  left: 240px;
+  color: white;
+}
+
+#ultwo {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  position: relative;
+  top: -320px;
+  left: 230px;
+  border: none;
+}
+#ultwo li{
+  color: white;
+}
+#ultwo li:hover{
+  color: gold;
+}
+.bodysixteen{
+  height: fit-content;
+}
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  position: relative;
+  right: -50px;
+  top: -10px;
+  cursor: pointer;
+  display: block;
+}
+}
